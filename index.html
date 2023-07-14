@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="time-bg" id="time-bg">
+        <div id="time">
+
+        </div>
+    </div>
+    <div class="bg">
+        <div class="display">
+            <div class="gamePeace">
+                <div class="window" id="window">
+                    <div id="block"></div>
+                    <div id="gameOver" class="hide">
+                        <p>GAME OVER</p>
+                    </div>
+                    <div id="restart" class="hide">
+                        <p>Restart?</p>
+                    </div>
+                </div>
+                <div class="windowReady" id="windowReady">
+                    <button id="start">
+                        Start
+                    </button>
+                </div>
+            </div>
+            <div class="otherInfo">
+                <div class="time">
+                    <input type="number" name="Second" id="NumDisplay">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="score-bg">
+        <div class="score">
+            Score:
+            <span id="score">
+            
+            </span>
+        </div>
+    </div>
+
+    <script defer src="script.js" type="text/javascript"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
